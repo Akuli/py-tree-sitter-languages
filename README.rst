@@ -26,9 +26,9 @@ at:
 
 1. setup.py — Python package setup.
 
-2. build.sh — Shell script to download support for all languages.
+2. repos.txt — Text file that contains a list of included language repositories and their commit hashes.
 
-3. build.py — Python script to build support for all languages.
+3. build.py — Python script to download and build the language repositories.
 
 4. .github/workflows/release.yml — GitHub action to invoke `cibuildwheel`_ and
    release to PyPI.
@@ -226,9 +226,6 @@ form:
   License.
 
 * https://github.com/ikatyang/tree-sitter-markdown — licensed under the MIT
-  License.
-
-* https://github.com/ikatyang/tree-sitter-toml — licensed under the MIT
   License.
 
 * https://github.com/ikatyang/tree-sitter-yaml — licensed under the MIT
